@@ -43,7 +43,6 @@
     sprite: _Nuclear14/Objects/Specific/Medical/drugs.rsi
     state: healingpowder
   objectType: Item
-
 - type: constructionGraph
   id: N14HealingPowder
   start: start
@@ -57,6 +56,16 @@
 
     - node: healingpowder
       entity: N14HealingPowder
+
+# Healing poultice
+- type: construction 
+  name: healing poultice
+  id: N14HealingPoultice
+  graph: N14HealingPoultice
+  startNode: start
+  targetNode: healingPoultice
+  category: construction-categody-medical
+  
 
 # Stimpaks
 - type: construction
